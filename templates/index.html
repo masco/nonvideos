@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="row">
+    <div class="col-sm-2" style="background-color:yellow;"></div>
+    <div class="col-sm-8" style="background-color:white;">
+      <h2>{{ main_video.name }}</h2>
+      <div>{{ main_video.iframe | safe }}</div>
+    </div>
+    <div class="col-sm-2" style="background-color:yellow;"></div>
+  </div>
+</body>
+</html>
